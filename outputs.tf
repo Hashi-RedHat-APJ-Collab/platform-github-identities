@@ -5,6 +5,6 @@ output "github_usernames" {
 }
 
 
-output "github_user_emails" {
-  value = local.team_members_map
-}
+# output "github_user_emails" {
+#   value = local.team_members_map
+# }
