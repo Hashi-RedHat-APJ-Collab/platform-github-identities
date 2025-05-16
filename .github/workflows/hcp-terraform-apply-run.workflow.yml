@@ -13,9 +13,6 @@ on:
     branches:
     ## RECOMMENDED: Change for your target branch, or include branches you wish to trigger this workflow file.
       - main
-    ## RECOMMENDED: Specify to only run this workflow file when terraform configuration has changed.
-    paths:
-      - '/**.tf'  ## Example: 'terraform/**.tf'
 
 ## RECOMMENDED: Limit apply runs job / workflow to a single concurrency group at a time.
 ## link: https://docs.github.com/en/actions/using-jobs/using-concurrency
